@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VivaVerde - Produtos Naturais | Saboreie a Natureza!</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-vivaverde { background-color: #4a7c59; }
+        .text-vivaverde { color: #4a7c59; }
+        .border-vivaverde { border-color: #4a7c59; }
+        .hover-vivaverde:hover { background-color: #3a6249; }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-vivaverde text-white p-2">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="image/logo Perfume.jpg" alt="Logo VivaVerde" class="w-32">
+            <div class="flex-grow mx-4">
+                <input type="text" placeholder="Pesquisar produtos naturais..." class="w-full p-2 rounded">
+            </div>
+            <nav class="flex items-center">
+                <a href="#" class="mx-2 hover:underline">Conta</a>
+                <a href="#" class="mx-2 hover:underline">Pedidos</a>
+                <a href="#" class="mx-2 hover:underline">Carrinho</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bg-green-800 text-white p-2">
+        <div class="container mx-auto flex justify-between">
+            <a href="#" class="hover:bg-green-700 px-3 py-1 rounded">Todos</a>
+            <a href="#" class="hover:bg-green-700 px-3 py-1 rounded">Ervas</a>
+            <a href="#" class="hover:bg-green-700 px-3 py-1 rounded">Chás</a>
+            <a href="#" class="hover:bg-green-700 px-3 py-1 rounded">Óleos Essenciais</a>
+            <a href="#" class="hover:bg-green-700 px-3 py-1 rounded">Cosméticos Naturais</a>
+            <a href="#" class="hover:bg-green-700 px-3 py-1 rounded">Alimentos Orgânicos</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-8">
+            <div class="bg-yellow-300 p-4 rounded-lg text-center">
+                <h2 class="text-2xl font-bold mb-2">3 meses grátis de entrega para membros VivaVerde+</h2>
+                <p>Produtos naturais entregues onde e quando quiser!</p>
+                <a href="#" class="bg-vivaverde text-white px-4 py-2 rounded mt-2 inline-block hover-vivaverde">Saiba mais</a>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="font-bold mb-2">Ofertas do Dia</h3>
+                <img src="image/oferta.jpeg" alt="Ofertas do Dia" class="w-full mb-2">
+                <a href="#" class="text-vivaverde hover:underline">Ver todas as ofertas</a>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="font-bold mb-2">Lançamentos</h3>
+                <img src="image/lançamentos.webp" alt="Lançamentos" class="w-full mb-2">
+                <a href="#" class="text-vivaverde hover:underline">Confira os novos produtos</a>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="font-bold mb-2">Mais Vendidos</h3>
+                <img src="image/vendidos.webp" alt="Mais Vendidos" class="w-full mb-2">
+                <a href="#" class="text-vivaverde hover:underline">Descubra o que está em alta</a>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="font-bold mb-2">Clube VivaVerde</h3>
+                <p>Assine e receba produtos naturais mensalmente</p>
+                <a href="#" class="bg-vivaverde text-white px-4 py-2 rounded mt-2 inline-block hover-vivaverde">Assinar agora</a>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Categorias em Destaque</h2>
+            <div class="flex overflow-x-auto space-x-4">
+                <div class="flex-none w-24 text-center">
+                    <img src="image/ervas.webp" alt="Ervas" class="w-full rounded-full mb-2">
+                    <p>Ervas</p>
+                </div>
+                <div class="flex-none w-24 text-center">
+                    <img src="image/chas.jpg" alt="Chás" class="w-full rounded-full mb-2">
+                    <p>Chás</p>
+                </div>
+                <div class="flex-none w-24 text-center">
+                    <img src="image/oleos.webp" alt="Óleos" class="w-full rounded-full mb-2">
+                    <p>Óleos</p>
+                </div>
+                <!-- Adicione mais categorias conforme necessário -->
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Produtos em Destaque</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="image/destaque.jpg" alt="Produto 1" class="w-full mb-2">
+                    <h3 class="font-bold">Erva Doce Orgânica</h3>
+                    <p class="text-red-600 font-bold">R$ 9,99</p>
+                    <p class="text-sm text-gray-600">Frete grátis para membros VivaVerde+</p>
+                </div>
+                <!-- Adicione mais produtos conforme necessário -->
+            </div>
+        </section>
+
+        <!-- Adicione mais seções de produtos ou conteúdo conforme necessário -->
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="font-bold mb-2">Conheça-nos</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Sobre a VivaVerde</a></li>
+                    <li><a href="#" class="hover:underline">Carreiras</a></li>
+                    <li><a href="#" class="hover:underline">Sustentabilidade</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold mb-2">Ganhe dinheiro conosco</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Venda na VivaVerde</a></li>
+                    <li><a href="#" class="hover:underline">Programa de afiliados</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold mb-2">Deixe-nos ajudar você</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Sua conta</a></li>
+                    <li><a href="#" class="hover:underline">Frete e prazo de entrega</a></li>
+                    <li><a href="#" class="hover:underline">Devoluções e reembolsos</a></li>
+                    <li><a href="#" class="hover:underline">Ajuda</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold mb-2">Pagamento</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Cartões de crédito</a></li>
+                    <li><a href="#" class="hover:underline">Boleto</a></li>
+                    <li><a href="#" class="hover:underline">Pix</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
